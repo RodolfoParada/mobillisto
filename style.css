@@ -1,0 +1,749 @@
+:root {
+    --primary-color: #003476;
+    --secundary-color: #b3b3b3b3;
+    --header-size: 4rem;
+    --font: 1.8rem;
+    --padding: 10px 100px;
+  }
+/*css reset*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+ 
+ /*hamburguesa pero no funciona*/
+
+header {
+    width: 100%;
+    min-width: 720px;
+    height:300px;
+    /* background: #4E94AB;  */
+    background:#293462 ;
+    text-align: l;
+    margin:0;
+    font-family: sans-serif;
+    
+}
+#btn-menu{
+  display: none;
+}
+header .label  { /*label*/ 
+  display: none;
+  width:30px;
+
+  height: 30px;
+  padding: 10px;
+  border-right:1px solid #fff;
+  
+}
+
+header .label :hover {/*label*/
+  cursor: pointer;;
+  background: rgba(0,0,0 ,0.3);
+}
+.menu-nav ul {
+  margin:0;
+  list-style: none;
+  padding: 0;
+  display: flex;
+
+  /* justify-content:flex-end ; */
+}
+
+.menu-nav li {
+  /* flex-grow: 1;
+  text-align: center; */
+  border-right: 1px solid #fff;
+}
+.menu-nav li:hover {
+ 
+  background: rgba(0,0,0,0.3);
+}
+
+.menu-nav li a {
+  display:block;
+  padding: 15px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width:320px) {
+  header label {
+    display:block;
+  }
+    .menu-nav {
+    position:absolute;
+    background: #5f6b93; 
+    width: 70%;
+    margin-left: -70%;
+    transition: all 0.5s;
+  
+    }
+    .menu-nav ul {
+      flex-direction:column; 
+    }
+
+    .menu-nav li {
+      border-top: 1px solid #fff;
+      height: 40px; 
+    }
+    #btn-menu:checked ~ .menu-nav {
+        margin: 0;
+
+
+    }
+  }
+
+
+  /*termino de la hamburguesa*/ 
+
+/*inicio de resumen profesional*/
+
+.resumen-profesional{
+
+    position: relative;
+    display: flex;/* para manipular el contenido*/
+    flex-direction: column;
+    justify-content:flex-end;
+    width: 100%;
+    min-width: 350px;
+    height: 320px;
+    text-align:center;
+    padding: 1px 10px;
+    border: 10px solid #293462 ;
+    background: #293462 ;
+    /* background: grey;*/
+
+}
+.resumen-profesional .main--title span {
+    /*Titulo Resumen Profesional*/
+    font-size: 1.8rem; /*tamaño de letra*/
+    font-weight: bold;
+    line-height: 1.8rem;
+    width:180px; /*ancho*/
+    height: 26px;/*alto*/
+    display: inline-block;
+    background: #FEB139;/*color de fondo*/
+    border: 5px solid #FEB139; /*color y ancho del border*/
+    margin-left: 45px;/*centra a la izquierda*/
+    margin-right: 55px;/*centra a la derecha*/
+    color: black;/*color de texto*/
+    /* margin-bottom: -180px;; */
+
+
+}
+/* .resumen-profesional .texto-resumen{
+  color:white;
+  text-decoration:white;
+} */
+
+.resumen-profesional h2 {
+    /*titulo Rodolfo Parada González*/
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: rem;
+    color: white;
+    align-self:flex-start;
+    margin-left: 0px;
+}
+.resumen-profesional img {
+    /*imagen y texto*/
+    width: 100px;
+    height: 100px;
+    margin-right: 25px;
+    align-self:flex-end;
+    border-radius: 25%;
+    border: 3px solid #FFF80A;
+    
+}
+
+.resumen-profesional .texto-resumen {
+  /*imagen y texto*/
+ z-index:1;
+ margin-bottom: -100px;
+
+}
+.resumen-profesional p{
+    /*texto profesional*/
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    text-align:justify;
+    
+
+}
+.resumen-profesional  .texto{
+  color: #c6c6c5;
+
+}
+
+.resumen-profesional .main--icon  .icon img  {
+  display: flex;
+  /* align-items: center;  */
+  list-style-type:none;
+  padding-top: 1px;
+  flex-flow: row wrap;
+  /* justify-content: space-around; */
+  /* display:inline-block;  */
+    border: 1px solid #FFF80A;
+  
+  /* max-height:20px;
+  max-width:20px; */
+}
+
+.resumen-profesional .main--icon .icon .ins {
+  
+  max-height:40px;
+  max-width:40px;
+ margin-top: -70px;
+}
+
+.resumen-profesional  .main--icon li {
+  padding: 0 10px;
+  display: inline-block;
+  
+ 
+}
+
+/*termino del resumen profesional*/
+
+
+/*inicio experiencia profesional*/
+.Experiencia-Profesional{
+    /* width: 100%;
+    height: auto;  */
+    position: relative;
+    display: flex;/* para manipular el contenido*/
+    flex-direction: column;
+    justify-content:flex-end;
+    width: 100%;
+    min-width: 350px;
+    height: 465px;
+    text-align:center;
+    padding: 1px 10px;
+    border: 10px solid #293462 ;
+    background: #293462 ;
+    margin-top: 0px;
+
+
+
+}
+
+
+.Experiencia-Profesional .main--title--experiencia span {
+    /*cuadro deltitulo  Experiencia Profesional*/
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  width: 200px;
+  height: 26px;
+  display:inline-block;
+  /* background: green; */
+  background: #FEB139;
+  border: 5px solid #FEB139;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: -10px;
+  margin-top: 10px; 
+  color: black;
+  /* margin: 0 0 0 0 ; */
+  margin-bottom: -300px;
+
+}
+
+.Experiencia-Profesional .Ultimo-Trabajo h2  {
+    /*fecha y cargos*/
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align:center;
+    line-height: 1.2rem;
+    color:#c6c6c5;;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align:justify;
+}
+
+.Experiencia-Profesional .Ultimo-Trabajo h3  {
+    /*titulo Principales Funciones y logros */
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align:left;
+    line-height: 1.2rem;
+    color:#c6c6c5;;
+    align-self:flex-start;
+    margin-left: 15px;
+    margin-right: 15px;
+
+
+}
+
+.Experiencia-Profesional .Ultimo-Trabajo p  {
+    /*contenido*/
+    font-size: 1.2rem;
+    text-align:center;
+    line-height: 1.2rem;
+    color:#c6c6c5;;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align:justify;
+}
+
+
+
+.Experiencia-Profesional .Penultimo-Trabajo h2  {
+    /*fecha y cargos*/
+   /*fecha y cargos*/
+   font-size: 1.2rem;
+   font-weight: bold;
+   text-align:center;
+   line-height: 1.2rem;
+   color:#c6c6c5;;
+   margin-left: 15px;
+   margin-right: 15px;
+   text-align:justify;
+
+}
+
+.Experiencia-Profesional .Penultimo-Trabajo h3  {
+    /*titulo Principales Funciones y logros */
+    /*titulo Principales Funciones y logros */
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align:left;
+    line-height: 1.2rem;
+    color:#c6c6c5;;
+    align-self:flex-start;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+
+.Experiencia-Profesional .Penultimo-Trabajo p  {
+    /*contenido*/
+ /*contenido*/
+ font-size: 1.2rem;
+ text-align:center;
+ line-height: 1.2rem;
+ color:#c6c6c5;
+ margin-left: 15px;
+ margin-right: 15px;
+ text-align:justify;
+}
+
+/*Termino experiencia profesional*/
+
+/*inicio formación educacional*/
+.Formación-Educacional{
+
+    position: relative;
+    display: flex;/* para manipular el contenido*/
+    flex-direction: column;
+    justify-content:flex-end;
+    width: 100%;
+    min-width: 350px;
+    height: 445px;/*445px*/
+    text-align:center;
+    padding: 1px 10px;
+    border: 10px solid #293462 ;
+    background: #293462 ;
+    margin-top: 0px;/*controla el espacio*/
+}
+
+.Formación-Educacional .main--title--experiencia span {
+    /*cuadro deltitulo  Experiencia Profesional*/
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    width: 200px;
+    height: 26px;
+    display:inline-block;
+    /* background: red; */
+    background: #FEB139;
+    border: 5px solid #FEB139;
+    margin-left: 45px;
+    margin-right: 45px;
+    /* margin-bottom: 200px; */
+    color: black;
+     /* margin: 0 0 0 0 ;   */
+     
+}
+.Formación-Educacional {
+    width: 100%;
+    height: 85px;/*con esto se controla el cuadro*/
+    padding-top:10px;
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+.Formación-Educacional .Formación-Educacional--title {
+        margin-top: 10px;
+        font-size:1.2rem;
+        font-weight: bold;
+        line-height: 1.2rem;
+        color:white;
+    
+        justify-content: center;
+
+} 
+.Formacion .boton{
+
+  
+    border: 1px solid #D61C4E; /*anchura, estilo y color borde*/
+    padding: 6px; /*espacio alrededor texto*/
+    background-color: #D61C4E; /*color botón*/
+    color: white; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 10px; /*bordes redondos*/
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+    justify-content: center;
+    margin-left: 10px;
+    /* margin-right: 40px; */ 
+    font-weight: bold;
+    
+    
+} 
+
+
+.Formacion-tablacontenedor .Bottom-tabla--title {
+    margin-top: 10px;
+    font-size:1.8rem;
+    font-weight: bold;
+    line-height: 2.3rem;
+    color: orange;
+    justify-content: center;
+
+}
+
+
+/*hard skills*/
+
+.Hard-Skill  {
+    
+
+    position: relative;
+    display: flex;/* para manipular el contenido*/
+    flex-direction: column;
+    justify-content:flex-end;
+    width: 100%;
+    min-width: 350px;
+    height:420px;/*445px*/
+    text-align:center;
+    padding: 1px 10px;
+    border: 10px solid #293462;
+    background: #293462;
+    margin-top: 0px;/*controla el espacio*/
+}
+
+.Hard-Skill .main--title--Hard-Skill span {
+   
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    width: 100px;
+    height: 26px;
+    display:inline-block;
+    /* background: yellow; */
+    background: #FEB139;
+    border: 5px solid #FEB139;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-bottom: 805px; /*controla el titulo de color*/
+    color: black;
+      /* margin: 0 0 0 0 ;   */
+     
+}
+.Hard-Skill  {
+    width: 100%;
+    height: 845px;
+    padding-top:10px;
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+.caja-padre {
+ width: 40%;
+ min-width: 350px;
+ position: absolute;
+ transform: translate(-50%, -50%);
+ left: 50%;
+ top: 50%
+
+}
+.contenedor {
+  width: 100%;
+  padding: 30px 30px 50px;
+  background: llinear-gradiente(450deg,darkblue,black);
+  border: 2px solid rgba(0,0,0,0.06);
+  border-radius: 10px;
+  box-shadow: 0 20px 30px rgba(0,0,0 ,0.2);
+  backdrop-filter: blur(10px);
+}
+
+.contenedor *{
+ font-family: 'Segoe UI',Taoma, Geneva, Verdana, Geneva, Tahoma, sans-serif;
+ color:#c6c6c5;
+ font-weight:250;
+
+}
+.skills:not(:last-child) {
+   margin-bottom:20px;
+}
+
+.detalles{
+  width: 80;
+  display:flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.menu {
+ position: relative;
+ border: 1px solid #c6c6c5;
+ border-radius: 20px;
+}
+.menu div {
+  padding: relative;
+  width:0;
+  height: 8px;
+  border-radius:10px;
+  background-color:#c6c6c5;
+}
+
+/*animacion*/
+#html-menu{
+  animation: html-barra 2s forwards;
+}
+
+@keyframes html-barra{
+  100%{
+    width:90%;
+  }
+}
+#CSS-menu{
+  animation: css-barra 2s forwards;
+}
+@keyframes css-barra{
+  100%{
+    width:70%;
+  }
+}
+
+#JS-menu{
+  animation: JS-barra 2s forwards;
+}
+@keyframes JS-barra{
+  100%{
+    width:45%;
+  }
+}
+
+#Java-menu{
+  animation: Java-barra 2s forwards;
+}
+@keyframes Java-barra{
+  100%{
+    width:55%;
+  }
+}
+
+#Spring-menu{
+  animation: Spring-barra 2s forwards;
+}
+@keyframes Spring-barra{
+  100%{
+    width:40%;
+  }
+}
+
+#Kotlin-menu{
+  animation: Kotlin-barra 2s forwards;
+}
+@keyframes Kotlin-barra{
+  100%{
+    width:35%;
+  }
+}
+
+#Angular-menu{
+  animation: Angular-barra 2s forwards;
+}
+@keyframes Angular-barra{
+  100%{
+    width:25%;
+  }
+}
+
+#MySQL-menu{
+  animation: MySQL-barra 2s forwards;
+}
+@keyframes MySQL-barra{
+  100%{
+    width:40%;
+  }
+}
+
+#PostgreSQL-menu{
+  animation: PostgreSQL-barra 2s forwards;
+}
+@keyframes PostgreSQL-barra{
+  100%{
+    width:15%;
+  }
+}
+
+#MongoDB-menu{
+  animation: MongoDB-barra 2s forwards;
+}
+@keyframes MongoDB-barra{
+  100%{
+    width:15%;
+  }
+}
+#Bootstrap-menu{
+  animation: Bootstrap-barra 2s forwards;
+}
+@keyframes Bootstrap-barra{
+  100%{
+    width:30%;
+  }
+}
+#Nodejs-menu{
+  animation: Nodejs-barra 2s forwards;
+}
+@keyframes Nodejs-barra{
+  100%{
+    width:25%;
+  }
+}
+
+#React-menu{
+  animation: React-barra 2s forwards;
+}
+@keyframes React-barra{
+  100%{
+    width:25%;
+  }
+}
+
+
+.Proyectos{
+
+  position: relative;
+  display: flex;/* para manipular el contenido*/
+  flex-direction: column;
+  justify-content:flex-end;
+  width: 100%;
+  min-width: 350px;
+  height: 90px;/*445px*/
+  text-align:center;
+  padding: 1px 10px;
+  border: 10px solid #293462;
+  background: #293462;
+  margin-top: 0px;/*controla el espacio*/
+}
+
+.Proyectos .main--title--proyectos span {
+  /*cuadro deltitulo  Experiencia Profesional*/
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  width: 100px;
+  height: 26px;
+  display:inline-block;
+  background: #FEB139;
+  border: 5px solid #FEB139;
+  margin-left: 45px;
+  margin-right: 45px;
+  margin-bottom: 1px; 
+  color: black;
+   /* margin: 0 0 0 0 ;   */
+   
+}
+.Proyectos .Formación-proyectos--title {
+  margin-top: 10px;
+  font-size:1.2rem;
+  font-weight: bold;
+  line-height: 1.2rem;
+  color:white;
+  margin-bottom: 35px;
+
+
+} 
+
+.Proyectos .botonuno { 
+  border: 2px solid #D61C4E ; /*anchura, estilo y color borde*/
+  padding: 6px; /*espacio alrededor texto*/
+  background-color: #D61C4E ; /*color botón*/
+  color: white; /*color texto*/
+  text-decoration: none; /*decoración texto*/
+  text-transform: uppercase; /*capitalización texto*/
+  font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+  border-radius: 10px; /*bordes redondos*/
+  font-size: 0.8rem;
+  /* text-align:center; */
+  line-height: 0.8rem;
+  margin-left: 120px;
+  margin-right: 1px; 
+  font-weight: bold;
+ 
+} 
+/*fOOTER*/
+.footer{
+  position: relative;
+  display: flex;/* para manipular el contenido*/
+  flex-direction: column;
+  justify-content:flex-end;
+  width: 100%;
+  min-width: 350px;
+  height: 80px;/*manipular el contenido*/
+  text-align:center;
+  padding: 1px 10px;
+  border: 10px solid #293462 ;
+  background: #293462 ;
+
+}
+
+.footer .main--title span{
+  /*Titulo Resumen Profesional*/
+  font-size: 1.8rem; /*tamaño de letra*/
+  font-weight: bold;
+  line-height: 1.8rem;
+  width:130px; /*ancho*/
+  height: 28px;/*alto*/
+  display: inline-block;
+  background: #FEB139;/*color de fondo*/
+  border: 5px solid #FEB139; /*color y ancho del border*/
+  margin-left: 0px;/*centra a la izquierda*/
+  margin-right: 0px;/*centra a la derecha*/
+  color: black;/*color de texto*/
+}
+
+.main--icon-container .redes   {
+
+  width:45px; 
+  height:45px;
+}
+
+.main--icon-container  ul {
+  display: flex;
+  align-items: center;
+  list-style-type:none;
+  padding-top: 10px;
+   flex-flow: row wrap;
+  /* justify-content: space-around; */
+  justify-content: center;
+
+}
+
+.main--icon-container li {
+  padding: 0 10px;
+}
+

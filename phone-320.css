@@ -1,0 +1,899 @@
+
+
+:root {
+  --primary-color: #003476;
+  --secundary-color: #b3b3b3b3;
+  --header-size: 4rem;
+  --font: 1.8rem;
+  --padding: 10px 100px;
+}
+/*css reset*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+
+/*hamburguesa pero no funciona*/
+
+header {
+  width: 100%;
+  min-width: 750px;
+  height:300px;
+  /* background: #4E94AB;  */
+  background:#293462 ;
+  text-align: l;
+  margin:0;
+  font-family: sans-serif;
+  margin-left: 0px;
+}
+#btn-menu{
+display: none;
+}
+header .label  { /*label*/ 
+display: none;
+width:30px;
+
+height: 30px;
+padding: 10px;
+border-right:1px solid #fff;
+
+}
+
+header .label :hover {/*label*/
+cursor: pointer;;
+background: rgba(0,0,0 ,0.3);
+}
+.menu-nav ul {
+margin:0;
+list-style: none;
+padding: 0;
+display: flex;
+
+/* justify-content:flex-end ; */
+}
+
+.menu-nav li {
+/* flex-grow: 1;
+text-align: center; */
+border-right: 1px solid #fff;
+}
+.menu-nav li:hover {
+
+background: rgba(0,0,0,0.3);
+}
+
+.menu-nav li a {
+display:block;
+padding: 15px 20px;
+color: #fff;
+text-decoration: none;
+}
+
+
+@media (max-width:388px) {
+  header label {
+    display:block;
+  }
+    .menu-nav {
+    position:absolute;
+    background: #5f6b93; 
+    width: 70%;
+    margin-left: -70%;
+    transition: all 0.5s;
+  
+    }
+    .menu-nav ul {
+      flex-direction:column; 
+    }
+
+    .menu-nav li {
+      border-top: 1px solid #fff;
+      height: 40px; 
+    }
+    #btn-menu:checked ~ .menu-nav {
+        margin: 0;
+
+
+    }
+  }
+  @media (max-width:384px) {
+    header label {
+      display:block;
+    }
+      .menu-nav {
+      position:absolute;
+      background: #5f6b93; 
+      width: 70%;
+      margin-left: -70%;
+      transition: all 0.5s;
+    
+      }
+      .menu-nav ul {
+        flex-direction:column; 
+      }
+  
+      .menu-nav li {
+        border-top: 1px solid #fff;
+        height: 40px; 
+      }
+      #btn-menu:checked ~ .menu-nav {
+          margin: 0;
+  
+  
+      }
+    }
+    @media (max-width:360px) {
+      header label {
+        display:block;
+      }
+        .menu-nav {
+        position:absolute;
+        background: #5f6b93; 
+        width: 70%;
+        margin-left: -70%;
+        transition: all 0.5s;
+      
+        }
+        .menu-nav ul {
+          flex-direction:column; 
+        }
+    
+        .menu-nav li {
+          border-top: 1px solid #fff;
+          height: 40px; 
+        }
+        #btn-menu:checked ~ .menu-nav {
+            margin: 0;
+    
+    
+        }
+      }
+      @media (max-width:400sapx) {
+        header label {
+          display:block;
+        }
+          .menu-nav {
+          position:absolute;
+          background: #5f6b93; 
+          width: 70%;
+          margin-left: -70%;
+          transition: all 0.5s;
+        
+          }
+          .menu-nav ul {
+            flex-direction:column; 
+          }
+      
+          .menu-nav li {
+            border-top: 1px solid #fff;
+            height: 40px; 
+          }
+          #btn-menu:checked ~ .menu-nav {
+              margin: 0;
+      
+      
+          }
+        }
+
+        @media (max-width:390px) {
+          header label {
+            display:block;
+          }
+            .menu-nav {
+            position:absolute;
+            background: #5f6b93; 
+            width: 70%;
+            margin-left: -70%;
+            transition: all 0.5s;
+          
+            }
+            .menu-nav ul {
+              flex-direction:column; 
+            }
+        
+            .menu-nav li {
+              border-top: 1px solid #fff;
+              height: 40px; 
+            }
+            #btn-menu:checked ~ .menu-nav {
+                margin: 0;
+        
+        
+            }
+          }
+          @media (max-width:394px) {
+            header label {
+              display:block;
+            }
+              .menu-nav {
+              position:absolute;
+              background: #5f6b93; 
+              width: 70%;
+              margin-left: -70%;
+              transition: all 0.5s;
+            
+              }
+              .menu-nav ul {
+                flex-direction:column; 
+              }
+          
+              .menu-nav li {
+                border-top: 1px solid #fff;
+                height: 40px; 
+              }
+              #btn-menu:checked ~ .menu-nav {
+                  margin: 0;
+          
+          
+              }
+            }
+
+            @media (max-width:450px) {
+              header label {
+                display:block;
+              }
+                .menu-nav {
+                position:absolute;
+                background: #5f6b93; 
+                width: 70%;
+                margin-left: -70%;
+                transition: all 0.5s;
+              
+                }
+                .menu-nav ul {
+                  flex-direction:column; 
+                }
+            
+                .menu-nav li {
+                  border-top: 1px solid #fff;
+                  height: 40px; 
+                }
+                #btn-menu:checked ~ .menu-nav {
+                    margin: 0;
+            
+            
+                }
+              }
+/*termino resumen Profesional*/
+
+@media (min-width:320px){
+.resumen-profesional {
+    display: flex;
+     margin: 0 auto;
+     position: relative;
+     display: flex;/* para manipular el contenido*/
+     flex-direction: column;
+     justify-content:flex-end;
+     width: 100%;
+     min-width: 750px; 
+     height: 365px;
+     text-align:center;
+     /* padding: 1px 10px; */
+     border: 10px solid #293462;
+     background: #293462;
+ 
+    padding-top:0px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.resumen-profesional .main--title span {
+    /*Titulo Resumen Profesional*/
+    font-size: 2rem; /*tamaño de letra*/
+    font-weight: bold;
+    line-height: 2rem;
+    width:260px; /*ancho*/
+    height: 26px;/*alto*/
+    display: inline-block;
+    background: #FEB139;/*color de fondo*/
+    border: 5px solid #FEB139; /*color y ancho del border*/
+    margin-left: 45px;/*centra a la izquierda*/
+    margin-right: 120px;/*centra a la derecha*/
+    color: black;/*color de texto*/
+    margin-bottom: 10px;
+
+
+}
+.resumen-profesional h2 {
+    /*titulo Rodolfo Parada González*/
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color:#c6c6c5;
+    align-self:flex-start;
+    margin-left: 225px;
+    margin-bottom: 10px;
+}
+.resumen-profesional img {
+    /*imagen y texto*/
+    border: 5px solid #FFF80A;
+   
+   margin-right: 0px;
+    width: 100px;
+    height: 100px;
+    margin-top: 1%;
+    margin-bottom: -150px;
+    margin-right: 200px;
+} 
+
+.resumen-profesional   .main--icon .ins{
+    margin-right: 0px;
+}
+
+.main--icon{
+
+    
+    margin-left: 0px;
+}
+
+.main--icon   .ins{
+
+ float:left;
+}
+ .ins{
+  top: 0%;
+  margin-right: 0px;
+   
+}
+
+.resumen-profesional .main--icon .icon .ins {
+  
+    max-height:50px;
+    max-width:50px;
+   margin-top: -20px;
+  
+  }
+  
+.resumen-profesional .texto{
+    font-size: 1.4rem;
+    font-weight: bold; 
+    line-height: 1.6rem;
+    position: relative; 
+    z-index: 1;
+    padding: 10px 1px;
+    left: 0px;
+    
+}
+   .resumen-profesional p{
+    /*texto profesional*/
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    text-align:justify;
+    width: 280px;
+    height: 220px;
+
+}
+
+
+.resumen-profesional .main--icon  .icon img {
+    display: flex;
+    /* align-items: center;  */
+    list-style-type:none;
+    padding-top: 1px;
+    flex-flow: row wrap;
+    /* justify-content: space-around; */
+    /* display:inline-block;  */
+    border: 1px solid #FFF80A;
+    max-height:45px;
+    max-width:45px;
+    margin-left: -30%;
+    
+    
+     
+  }
+
+  .resumen-profesional  .main--icon li {
+    padding: 0 10px;
+    display: inline-block;
+    
+   
+  }
+}
+
+/*termino resumen Profesional*/
+
+
+
+/*Inicio Experiencia Profesional*/
+
+@media (min-width:320px){
+
+    .Experiencia-Profesional{
+        display: flex;
+        /* flex-wrap: wrap; */
+        margin: 0 auto;
+    
+
+    
+        width: 100%;
+        height: auto;  
+        /* position: relative; */
+        display: flex;/* para manipular el contenido*/
+         flex-direction: column;
+        /* justify-content:flex-end; */
+       
+        min-width: 750px;
+        height: 700px;
+        text-align:center;
+        /* padding: 1px 10px; */
+        border: 10px solid #293462;
+        background: #293462;
+         
+    
+
+            /* height: 768px;con esto se controla el cuadro */
+            padding-bottom:70px;
+            text-align: center;
+            /* margin-bottom: 500PX; */
+         ;
+    
+    }
+    
+    
+    .Experiencia-Profesional .main--title--experiencia span {
+        /*cuadro deltitulo  Experiencia Profesional*/
+      font-size: 2rem;
+      font-weight: bold;
+      line-height: 2rem;
+      width: 260px;
+      height: 26px;
+      display:inline-block;
+      background: #FEB139;
+      border: 5px solid #FEB139;
+      margin-left: 0px;
+      margin-right: 70px;
+   
+      /* margin-bottom: -2000px;  */
+      /* margin-top: 100px;  */
+      color: black;
+      /* margin: 0 0 0 0 ; */
+    }
+
+
+    
+    .Experiencia-Profesional .Ultimo-Trabajo h2  {
+        /*fecha y cargos*/
+        font-size: 1.8rem;
+        font-weight: bold;
+        text-align:center;
+        line-height: 1.8rem;
+        color:#c6c6c5;
+        margin-left: 15px;
+        margin-right: 15px;
+        text-align:justify;
+    }
+    
+    .Experiencia-Profesional .Ultimo-Trabajo h3  {
+        /*titulo Principales Funciones y logros */
+        font-size: 1.8rem;
+        font-weight: bold;
+        text-align:left;
+        line-height: 1.8rem;
+        color:#c6c6c5;
+        align-self:flex-start;
+        margin-left: 15px;
+        margin-right: 15px;
+    
+    
+    }
+    
+    .Experiencia-Profesional .Ultimo-Trabajo p  {
+        /*contenido*/
+        font-size: 1.8rem;
+        text-align:center;
+        line-height: 1.8rem;
+        color:#c6c6c5;
+        margin-left: 15px;
+        margin-right: 15px;
+        text-align:justify;
+    }
+    
+    
+    
+    .Experiencia-Profesional .Penultimo-Trabajo h2  {
+        /*fecha y cargos*/
+       /*fecha y cargos*/
+       font-size: 1.8rem;
+       font-weight: bold;
+       text-align:center;
+       line-height: 1.8rem;
+       color:#c6c6c5;
+       margin-left: 15px;
+       margin-right: 15px;
+       text-align:justify;
+    
+    }
+    
+    .Experiencia-Profesional .Penultimo-Trabajo h3  {
+        /*titulo Principales Funciones y logros */
+        /*titulo Principales Funciones y logros */
+        font-size: 1.8rem;
+        font-weight: bold;
+        text-align:left;
+        line-height: 1.8rem;
+        color:#c6c6c5;
+        align-self:flex-start;
+        margin-left: 15px;
+        margin-right: 15px;
+    
+    }
+    
+    
+    .Experiencia-Profesional .Penultimo-Trabajo p  {
+        /*contenido*/
+     /*contenido*/
+     font-size: 1.8rem;
+     text-align:center;
+     line-height: 1.8rem;
+     color:#c6c6c5;
+     margin-left: 15px;
+     margin-right: 15px;
+     text-align:justify;
+    }
+    
+
+}
+    
+/*Termino Experiencia Profesional*/
+
+
+
+
+
+
+  /*Inicio Formacion Profesional*/
+
+@media (min-width:320px){
+     
+    .Formación-Educacional {
+        width: 100%;   
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        min-width: 750px;
+        height: 120px;
+
+        /* position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-end;
+        width: 60%;
+       
+        text-align:center;
+        padding: 1px 10px;
+        border: 10px solid black;
+        background: grey;
+        margin-top: 15px; */
+    }
+    
+    .Formación-Educacional .main--title--experiencia span {
+        /*cuadro deltitulo  Experiencia Profesional*/
+        font-size: 2rem;
+        font-weight: bold;
+        line-height: 2rem;
+        width: 280px;
+        height: 24px;
+        display:inline-block;
+        background: #FEB139;
+        border: 5px solid #FEB139;
+        margin-left: 180px;
+        margin-right: 0px;
+        margin-bottom: 80px; 
+        color: black;
+        /* margin: 0 0 0 0  ;    */
+         
+    }
+
+    .Formación-Educacional .Formación-Educacional--title {
+            margin-top: 10px;
+            font-size:1.2rem;
+            font-weight: bold;
+            line-height: 1.8rem;
+            color:#c6c6c5;
+            margin-bottom: 50px;
+            margin-left: -260px;
+    
+    } 
+    .Formacion .boton{
+    
+      position: relative;
+      /* left: -230%; */
+        /* border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+        /* padding: 6px; /*espacio alrededor texto*/
+        /* background-color: #2e518b; /*color botón*/
+        /* color: white; /*color texto*/
+        /* text-decoration: none; /*decoración texto*/
+        /* text-transform: uppercase; /*capitalización texto*/
+        /* font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+        /* border-radius: 10px; /*bordes redondos*/
+         font-size: 1rem;
+        line-height: 1rem; 
+        margin-left: 40px;
+        margin-right: 10px;
+        
+    
+    } 
+
+   .Formacion .table__top-left{
+    position: relative;
+       left: -90%;
+
+   }
+   .Formacion .table__top-right {
+    position: relative;
+    left: -80%;
+
+   }
+    
+    .Formacion-tablacontenedor .Bottom-tabla--title {
+        margin-top: 10px;
+        font-size:1.8rem;
+        font-weight: bold;
+        line-height: 2.3rem;
+        color: orange;
+         
+         
+    }
+    
+}
+    /*Termino Formacion Profesional*/
+   
+
+ /*Inicio Hard Skill*/
+
+ @media (min-width:320px){
+
+.Hard-Skill {   
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    position: relative;
+    display: flex;/* para manipular el contenido*/
+    flex-direction: column;
+    justify-content:flex-end;
+    width: 80%;
+    min-width: 750px;
+    height:420px;/*445px*/
+    text-align:center;
+    padding: 1px 10px;
+    border: 10px solid #293462 ;
+    background: #293462 ;
+    margin-top: 0px;/*controla el espacio*/
+}
+
+.Hard-Skill .main--title--Hard-Skill span {
+   
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 2rem;
+    width: 140px;
+    height: 30px;
+    display:inline-block;
+    background: #FEB139;
+    border: 5px solid #FEB139;
+    margin-left: 0px;
+    margin-right: 50px;
+    margin-bottom: 800px; /*controla el titulo de color*/
+    color: black;
+      /* margin: 0 0 0 0 ;   */
+     
+}
+.Hard-Skill  {
+    width: 10%;
+    height: 850px;
+    padding-top:10px;
+    padding-bottom: 20px;
+    text-align: center;
+    
+
+}
+.caja-padre {
+ width: 80%;
+ min-width: 300px;
+ position: absolute;
+ transform: translate(-50%, -50%);
+ left: 45%;
+ top: 50%
+
+}
+.contenedor {
+  width: 100%;
+  padding: 25px 25px 50px;
+  background: llinear-gradiente(450deg,darkblue,black);
+  border: 2px solid rgba(0,0,0,0.06);
+  border-radius: 10px;
+  box-shadow: 0 20px 30px rgba(0,0,0 ,0.2);
+  backdrop-filter: blur(10px);
+}
+
+.contenedor *{
+ font-family: 'Segoe UI',Taoma, Geneva, Verdana, Geneva, Tahoma, sans-serif;
+ color:#c6c6c5;
+ font-weight:500;
+
+}
+.skills:not(:last-child) {
+   margin-bottom: 25px;
+}
+
+.detalles{
+  width: 80;
+  display:flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.menu {
+ position: relative;
+ border: 1px solid #c6c6c5;
+ border-radius: 20px;
+}
+.menu div {
+  padding: relative;
+  width:0;
+  height: 8px;
+  border-radius:10px;
+  background-color:#c6c6c5;
+}
+
+ }
+ /*Inicio Hard Skill*/
+
+
+ /*Inicio Proyectos*/
+
+ @media (min-width:320px){
+.Proyectos {   
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+
+    
+
+        position: relative;
+        display: flex;/* para manipular el contenido*/
+        flex-direction: column;
+        justify-content:flex-end;
+        width:100%;
+        min-width: 750px;
+        height: 110px;/*445px*/
+        text-align:center;
+        padding: 1px 10px;
+        border: 10px solid #293462;
+        background: #293462;
+        margin-top: 0px;/*controla el espacio*/
+      }
+      
+      .Proyectos .main--title--proyectos span {
+        /*cuadro deltitulo  Experiencia Profesional*/
+        font-size: 2rem;
+        font-weight: bold;
+        line-height: 2rem;
+        width: 140px;
+        height: 26px;
+        display:inline-block;
+        background:#FEB139;
+        border: 5px solid #FEB139;
+        margin-left: opx;
+        margin-right: -170px;
+        margin-bottom: 85px; 
+        color: black;
+         /* margin: 0 0 0 0 ;   */
+         margin-left: 85px;
+      }
+      .Proyectos .Formación-proyectos--title {
+        margin-top: 10px;
+        font-size:1.4rem;
+        font-weight: bold;
+        line-height: 1.6rem;
+        color:#c6c6c5;
+        margin-bottom: 35px;
+        margin-left: -450px
+      
+
+           
+      
+      } 
+      
+      .Proyectos .botonuno { 
+        position: relative;
+        /* border: 2px solid #2e518b; /*anchura, estilo y color borde*/
+        /* padding: 6px; /*espacio alrededor texto*/
+        /* background-color: #2e518b; /*color botón*/
+        /* color: white; /*color texto*/
+        /* text-decoration: none; /*decoración texto*/
+        /* text-transform: uppercase; /*capitalización texto*/
+        /* font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+        /* border-radius: 10px; /*bordes redondos*/
+        /* font-size: 0.8rem;
+        /* text-align:center; */
+        /* line-height: 0.8rem;
+        margin-left: 100px;
+        margin-right: 1px;     */
+        font-size: 1.4rem;
+        line-height: 1.4rem; 
+        left: 22%;
+       
+       
+      } 
+
+    /* .Proyectos  .table__top-center {
+        position: relative;
+        left: -50%;
+
+    } */
+}
+ /*Termino Proyectos*/
+
+ 
+  /*Inicio Contactame*/
+
+  @media (min-width:320px){
+   .footer {   
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+
+
+
+    position: relative;
+    display: flex;/* para manipular el contenido*/
+    flex-direction: column;
+    justify-content:flex-end;
+    width: 100%;
+    min-width: 750px;
+    height: 100px;/*manipular el contenido*/
+    text-align:center;
+    padding: 1px 10px;
+    border: 10px solid #293462;
+    background: #293462;
+  
+  }
+  
+  .footer .main--title span{
+    /*Titulo Resumen Profesional*/
+    font-size: 2rem; /*tamaño de letra*/
+    font-weight: bold;
+    line-height: 2rem;
+    width:160px; /*ancho*/
+    height: 30px;/*alto*/
+    display: inline-block;
+    background: #FEB139 ;/*color de fondo*/
+    border: 5px solid #FEB139 ; /*color y ancho del border*/
+    margin-left: 0px;/*centra a la izquierda*/
+    margin-right: 70px;/*centra a la derecha*/
+    color: black;/*color de texto*/
+    margin-bottom: 5px; 
+  }
+  
+  .main--icon-container .redes   {
+
+    width:45px; 
+    height:45px;
+    margin-left: -20px;
+    margin-right: 60px;
+  }
+  
+  .main--icon-container  ul {
+    display: flex;
+    align-items: center;
+    list-style-type:none;
+    padding-top: 10px;
+     flex-flow: row wrap;
+    /* justify-content: space-around; */
+    justify-content: center;
+  
+  }
+  
+  .main--icon-container li {
+    padding: 0 10px;
+  }
+
+}
+
+  /*Termino Contactame*/

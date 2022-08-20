@@ -1,0 +1,1180 @@
+@media (min-width:320px){
+    .Container-title{
+        position: relative;
+        display: flex;/* para manipular el contenido*/
+        flex-direction: column;
+        justify-content:flex-end;
+        width: 83%;
+        min-width: 450px;
+        height: 280px;/*manipular el contenido*/
+        text-align:center;
+        padding: 1px 10px;
+        border: 10px solid #293462;
+        background: #293462;
+        margin-top: -10px;
+    }
+    
+    .Container-title    img {
+         /*imagen y texto*/
+        width: 100px;
+        height: 100px;
+        margin-right: 5px;
+        float: left;
+        border-radius: 10%;
+        border: 5px solid #FFF80A;
+        text-align:justify;
+        margin-left: 50px;
+        width: 80px;
+        height: 80px;
+        margin-top: -1%;
+        
+        /* margin-bottom: -500px; */
+
+    }
+    
+    .Container-title h1{
+        /*titulo Rodolfo Parada*/
+        font-size: 1.4rem;
+        font-weight: bold;
+        line-height: 1.8rem;
+        color: #c6c6c5;
+        align-self:flex-start;
+        margin-left: 150px;
+       margin-top: -1%;
+    
+    }
+    .Container-title p{
+      /*contenido en las etiquetas p*/
+        font-size: 1.2rem;
+        /* font-weight: bold; */
+        line-height: 1.4rem;
+        color: #c6c6c5;
+        align-self:flex-start;
+        margin-left: 1px;
+        /* align-content:flex-start;
+        justify-content: flex-start; */
+        justify-content:flex-end;
+    
+    
+    }
+    
+    
+    
+    .Container-title .parrafo p{
+        font-size: 1.2rem;
+        /* font-weight: bold; */
+        line-height: 1.4rem;
+        color:#c6c6c5;
+        align-self:flex-start;
+        margin-left: 15px;
+        text-align:justify;
+        
+    }
+    
+    .boton{
+        border: 1px solid #D61C4E; /*anchura, estilo y color borde*/
+        padding: 6px; /*espacio alrededor texto*/
+        background-color: #D61C4E ; /*color botón*/
+        color: #FFF80A ; /*color texto*/
+        text-decoration: none; /*decoración texto*/
+        text-transform: uppercase; /*capitalización texto*/
+        font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+        border-radius: 10px; /*bordes redondos*/
+        font-size: 1rem;
+        text-align:center;
+        line-height: 1rem;
+        margin-left: 120px;
+        margin-right: 120px;
+        justify-content:center;
+       
+    }
+     }
+    
+    
+    
+     /*video*/
+    
+     @media (min-width:320px){
+        .Video{
+            position: relative;
+            display: flex;/* para manipular el contenido*/
+            flex-direction: column;
+            justify-content:flex-end;
+            width: 83%;
+            min-width: 450px;
+            height: 200px;/*manipular el contenido*/
+            text-align:center;
+            padding: 1px 10px;
+            border: 10px solid #293462;
+            background: #293462;
+        
+        }
+        
+        .cursos .video{
+           
+            justify-content: center;
+        } 
+        
+        .Video .titulo p{
+        font-size: 1.4rem;
+        font-weight: bold;
+        line-height: 1.4rem;
+        color: #c6c6c5 ;
+        align-self:flex-start;
+        margin-left: 15px;
+        
+        }
+    }
+    
+    @media (min-width:320px){
+        .tablas-cursos{
+            position: relative;
+            display: flex;/* para manipular el contenido*/
+            flex-direction: column;
+            justify-content:flex-end;
+            width: 83%;
+            min-width: 450px;
+            height: 1830px;/*manipular el contenido*/
+            text-align:center;
+            padding: 1px 10px;
+            border: 10px solid #293462;
+            background: #293462;
+        
+        }
+        .main-currency-table {
+            width: 70%;
+            min-width: 235px;
+            max-width: 500px; 
+            height: 2070px;  
+            margin: 0 auto;
+            font-family: "Inter",sans-serif;
+            scroll-snap-align:center;
+            margin-left: 20px;
+        }
+        
+         .main-currency-table .currency-table--title {
+           /*titulo cursos*/
+            margin-bottom: 15px;
+            font-size:1.6rem;
+            font-weight: bold;
+            line-height: 2.3rem;
+            color: #c6c6c5 ;
+            text-align-last: center;
+        margin-left: 100px;
+           
+            
+        }
+        
+        /*tabla titulo universidad-nombre curso- diplama*/
+        
+        .currency-table--container .titulos {
+            margin-bottom: 5px;
+            font-size:1.4rem;
+            /* line-height: 1.4rem; */
+            color:#c6c6c5 ;
+            border-bottom: solid 1px white;
+            width: 400px;
+            height: 10px;
+            margin-left: -20px;
+            
+        }
+        .currency-table--container .titulos .titulo-uno{
+            text-align: left;
+    
+        }
+        .currency-table--container .titulos  .titulo-dos {
+            text-align: center;
+            
+        }
+        .currency-table--container .titulos .titulo-tres{
+            text-align: right;
+        }
+        .currency-table--container   {
+            /* display: flex;
+           max-width: 200px;
+           min-width: 100px;
+            margin-right: 60px;
+            margin-right: 1px;
+            /* left:100%; */
+            margin-bottom: -100px;
+           
+        }
+    
+    
+    
+    
+        /*descripción y boton*/
+        .currency-table--container   .titulo-diplomaUno {
+            display: flex;
+           max-width: 200px;
+           min-width: 100px;
+            margin-right: 60px;
+            margin-right: 1px;
+            /* left:100%; */
+            right: 300%;
+            margin-left: 98px;
+        }
+        .currency-table--container .botonUno{
+                border: 1px solid #D61C4E; /*anchura, estilo y color borde*/
+                padding: 6px; /*espacio alrededor texto*/
+                background-color: #D61C4E; /*color botón*/
+                color: white; /*color texto*/
+                text-decoration: none; /*decoración texto*/
+                text-transform: uppercase; /*capitalización texto*/
+                font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+                border-radius: 10px; /*bordes redondos*/
+                font-size: 1rem;
+                line-height: 0.8rem;
+                margin-left: 90px;
+                margin-right: 1px; 
+        }        
+                
+        .currency-table--container   .titulo-diplomaDos {
+            display: flex;
+           max-width: 200px;
+           min-width: 100px;
+            margin-right: 60px;
+            margin-right: 1px;
+            /* left:100%; */
+            right: 300%;
+            margin-left: 100px;
+        }
+        .currency-table--container .botonDos{
+                border: 1px solid #D61C4E; /*anchura, estilo y color borde*/
+                padding: 6px; /*espacio alrededor texto*/
+                background-color: #D61C4E; /*color botón*/
+                color: white; /*color texto*/
+                text-decoration: none; /*decoración texto*/
+                text-transform: uppercase; /*capitalización texto*/
+                font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+                border-radius: 10px; /*bordes redondos*/
+                font-size: 1rem;
+                line-height: 0.8rem;
+                margin-left: 90px;
+                margin-right: 1px; 
+        }         
+    
+        .currency-table--container   .titulo-diplomaTres {
+                    display: flex;
+                   max-width: 200px;
+                   min-width: 100px;
+                    margin-right: 60px;
+                    margin-right: 1px;
+                    /* left:100%; */
+                    right: 300%;
+                    margin-left: 100px;
+                }
+                .currency-table--container .botonTres{
+                        border: 1px solid #D61C4E; /*anchura, estilo y color borde*/
+                        padding: 6px; /*espacio alrededor texto*/
+                        background-color: #D61C4E; /*color botón*/
+                        color: white; /*color texto*/
+                        text-decoration: none; /*decoración texto*/
+                        text-transform: uppercase; /*capitalización texto*/
+                        font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+                        border-radius: 10px; /*bordes redondos*/
+                        font-size: 1rem;
+                        line-height: 0.8rem;
+                        margin-left: 90px;
+                        margin-right: 1px; 
+                }
+    
+                .currency-table--container   .titulo-diplomaCuatro {
+                    display: flex;
+                   max-width: 200px;
+                   min-width: 100px;
+                    margin-right: 60px;
+                    margin-right: 1px;
+                    /* left:100%; */
+                    right: 300%;
+                    margin-left: 100px;
+                }
+                .currency-table--container .botonCuatro{
+                        border: 1px solid #D61C4E; /*anchura, estilo y color borde*/
+                        padding: 6px; /*espacio alrededor texto*/
+                        background-color: #D61C4E; /*color botón*/
+                        color: white; /*color texto*/
+                        text-decoration: none; /*decoración texto*/
+                        text-transform: uppercase; /*capitalización texto*/
+                        font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+                        border-radius: 10px; /*bordes redondos*/
+                        font-size: 1rem;
+                        line-height: 0.8rem;
+                        margin-left: 95px;
+                        margin-right: 1px; 
+                }
+        
+    
+                .currency-table--container   .titulo-diplomaCinco {
+                    display: flex;
+                   max-width: 200px;
+                   min-width: 100px;
+                    margin-right: 60px;
+                    margin-right: 1px;
+                    /* left:100%; */
+                    right: 300%;
+                    margin-left: 100px;
+                }
+                .currency-table--container .botonCinco{
+                        border: 1px solid #D61C4E; /*anchura, estilo y color borde*/
+                        padding: 6px; /*espacio alrededor texto*/
+                        background-color: #D61C4E; /*color botón*/
+                        color: white; /*color texto*/
+                        text-decoration: none; /*decoración texto*/
+                        text-transform: uppercase; /*capitalización texto*/
+                        font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+                        border-radius: 10px; /*bordes redondos*/
+                        font-size: 1rem;
+                        line-height: 0.8rem;
+                        margin-left: 95px;
+                        margin-right: 1px; 
+                }
+    
+                .currency-table--container   .titulo-diplomaSeis {
+                    display: flex;
+                   max-width: 200px;
+                   min-width: 100px;
+                    margin-right: 60px;
+                    margin-right: 1px;
+                    /* left:100%; */
+                    right: 300%;
+                    margin-left: 100px;
+                }
+                .currency-table--container .botonSeis{
+                        border: 1px solid #D61C4E; /*anchura, estilo y color borde*/
+                        padding: 6px; /*espacio alrededor texto*/
+                        background-color: #D61C4E; /*color botón*/
+                        color: white; /*color texto*/
+                        text-decoration: none; /*decoración texto*/
+                        text-transform: uppercase; /*capitalización texto*/
+                        font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+                        border-radius: 10px; /*bordes redondos*/
+                        font-size: 1rem;
+                        line-height: 0.8rem;
+                        margin-left: 95px;
+                        margin-right: 1px; 
+                }
+            
+                .currency-table--container   .titulo-diplomaSiete {
+                    display: flex;
+                   max-width: 200px;
+                   min-width: 100px;
+                    margin-right: 60px;
+                    margin-right: 1px;
+                    /* left:100%; */
+                    right: 300%;
+                    margin-left: 100px;
+                }
+                .currency-table--container .botonSiete{
+                        border: 1px solid #D61C4E; /*anchura, estilo y color borde*/
+                        padding: 6px; /*espacio alrededor texto*/
+                        background-color: #D61C4E; /*color botón*/
+                        color: white; /*color texto*/
+                        text-decoration: none; /*decoración texto*/
+                        text-transform: uppercase; /*capitalización texto*/
+                        font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+                        border-radius: 10px; /*bordes redondos*/
+                        font-size: 1rem;
+                        line-height: 0.8rem;
+                        margin-left: 95px;
+                        margin-right: 1px; 
+                }
+    
+                .currency-table--container   .titulo-diplomaOcho {
+                    display: flex;
+                   max-width: 200px;
+                   min-width: 100px;
+                    margin-right: 60px;
+                    margin-right: 1px;
+                    /* left:100%; */
+                    right: 300%;
+                    margin-left: 100px;
+                }
+                .currency-table--container .botonOcho{
+                        border: 1px solid #D61C4E; /*anchura, estilo y color borde*/
+                        padding: 6px; /*espacio alrededor texto*/
+                        background-color: #D61C4E; /*color botón*/
+                        color: white; /*color texto*/
+                        text-decoration: none; /*decoración texto*/
+                        text-transform: uppercase; /*capitalización texto*/
+                        font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+                        border-radius: 10px; /*bordes redondos*/
+                        font-size: 1rem;
+                        line-height: 0.8rem;
+                        margin-left: 95px;
+                        margin-right: 1px; 
+                }
+    
+                .currency-table--container   .titulo-diplomaNueve {
+                    display: flex;
+                   max-width: 200px;
+                   min-width: 100px;
+                    margin-right: 60px;
+                    margin-right: 1px;
+                    /* left:100%; */
+                    right: 300%;
+                    margin-left: 100px;
+                }
+                .currency-table--container .botonNueve{
+                        border: 1px solid #D61C4E; /*anchura, estilo y color borde*/
+                        padding: 6px; /*espacio alrededor texto*/
+                        background-color: #D61C4E; /*color botón*/
+                        color: white; /*color texto*/
+                        text-decoration: none; /*decoración texto*/
+                        text-transform: uppercase; /*capitalización texto*/
+                        font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+                        border-radius: 10px; /*bordes redondos*/
+                        font-size: 1rem;
+                        line-height: 0.8rem;
+                        margin-left: 95px;
+                        margin-right: 1px; 
+                }
+    
+                .currency-table--container   .titulo-diplomaDiez {
+                    display: flex;
+                   max-width: 200px;
+                   min-width: 100px;
+                    margin-right: 60px;
+                    margin-right: 1px;
+                    /* left:100%; */
+                    right: 300%;
+                    margin-left: 100px;
+                }
+                .currency-table--container .botonDiez{
+                        border: 1px solid #D61C4E; /*anchura, estilo y color borde*/
+                        padding: 6px; /*espacio alrededor texto*/
+                        background-color: #D61C4E; /*color botón*/
+                        color: white; /*color texto*/
+                        text-decoration: none; /*decoración texto*/
+                        text-transform: uppercase; /*capitalización texto*/
+                        font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+                        border-radius: 10px; /*bordes redondos*/
+                        font-size: 1rem;
+                        line-height: 0.8rem;
+                        margin-left: 95px;
+                        margin-right: 1px; 
+                }
+        
+                .currency-table--container   .titulo-diplomaOnce {
+                    display: flex;
+                   max-width: 200px;
+                   min-width: 100px;
+                    margin-right: 60px;
+                    margin-right: 1px;
+                    /* left:100%; */
+                    right: 300%;
+                    margin-left: 100px;
+                }
+                .currency-table--container .botonOnce{
+                        border: 1px solid #D61C4E; /*anchura, estilo y color borde*/
+                        padding: 6px; /*espacio alrededor texto*/
+                        background-color: #D61C4E; /*color botón*/
+                        color: white; /*color texto*/
+                        text-decoration: none; /*decoración texto*/
+                        text-transform: uppercase; /*capitalización texto*/
+                        font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+                        border-radius: 10px; /*bordes redondos*/
+                        font-size: 1rem;
+                        line-height: 0.8rem;
+                        margin-left: 95px;
+                        margin-right: 1px; 
+                }
+    
+                .currency-table--container   .titulo-diplomaDoce {
+                    display: flex;
+                   max-width: 200px;
+                   min-width: 100px;
+                    margin-right: 60px;
+                    margin-right: 1px;
+                    /* left:100%; */
+                    right: 300%;
+                    margin-left: 100px;
+                }
+                .currency-table--container .botonDoce{
+                        border: 1px solid #D61C4E; /*anchura, estilo y color borde*/
+                        padding: 6px; /*espacio alrededor texto*/
+                        background-color: #D61C4E; /*color botón*/
+                        color: white; /*color texto*/
+                        text-decoration: none; /*decoración texto*/
+                        text-transform: uppercase; /*capitalización texto*/
+                        font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+                        border-radius: 10px; /*bordes redondos*/
+                        font-size: 1rem;
+                        line-height: 0.8rem;
+                        margin-left: 95px;
+                        margin-right: 1px; 
+                }
+                .currency-table--container   .titulo-diplomaTrece {
+                    display: flex;
+                   max-width: 200px;
+                   min-width: 100px;
+                    margin-right: 60px;
+                    margin-right: 1px;
+                    /* left:100%; */
+                    right: 300%;
+                    margin-left: 100px;
+                }
+                .currency-table--container .botonTrece{
+                        border: 1px solid #D61C4E; /*anchura, estilo y color borde*/
+                        padding: 6px; /*espacio alrededor texto*/
+                        background-color: #D61C4E; /*color botón*/
+                        color: white; /*color texto*/
+                        text-decoration: none; /*decoración texto*/
+                        text-transform: uppercase; /*capitalización texto*/
+                        font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+                        border-radius: 10px; /*bordes redondos*/
+                        font-size: 1rem;
+                        line-height: 0.8rem;
+                        margin-left: 95px;
+                        margin-right: 1px; 
+                }
+                .currency-table--container   .titulo-diplomaCatorce {
+                    display: flex;
+                   max-width: 200px;
+                   min-width: 100px;
+                    margin-right: 60px;
+                    margin-right: 1px;
+                    /* left:100%; */
+                    right: 300%;
+                    margin-left: 100px;
+                }
+                .currency-table--container .botonCatorce{
+                        border: 1px solid #D61C4E; /*anchura, estilo y color borde*/
+                        padding: 6px; /*espacio alrededor texto*/
+                        background-color: #D61C4E; /*color botón*/
+                        color: white; /*color texto*/
+                        text-decoration: none; /*decoración texto*/
+                        text-transform: uppercase; /*capitalización texto*/
+                        font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+                        border-radius: 10px; /*bordes redondos*/
+                        font-size: 1rem;
+                        line-height: 0.8rem;
+                        margin-left: 95px;
+                        margin-right: 1px; 
+                }
+                .currency-table--container   .titulo-diplomaQuince {
+                    display: flex;
+                   max-width: 200px;
+                   min-width: 100px;
+                    margin-right: 60px;
+                    margin-right: 1px;
+                    /* left:100%; */
+                    right: 300%;
+                    margin-left: 100px;
+                }
+                .currency-table--container .botonQuince{
+                        border: 1px solid #D61C4E; /*anchura, estilo y color borde*/
+                        padding: 6px; /*espacio alrededor texto*/
+                        background-color: #D61C4E; /*color botón*/
+                        color: white; /*color texto*/
+                        text-decoration: none; /*decoración texto*/
+                        text-transform: uppercase; /*capitalización texto*/
+                        font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+                        border-radius: 10px; /*bordes redondos*/
+                        font-size: 1rem;
+                        line-height: 0.8rem;
+                        margin-left: 95px;
+                        margin-right: 1px; 
+                }
+                .currency-table--container   .titulo-diplomaDieciseis {
+                    display: flex;
+                   max-width: 200px;
+                   min-width: 100px;
+                    margin-right: 60px;
+                    margin-right: 1px;
+                    /* left:100%; */
+                    right: 300%;
+                    margin-left: 100px;
+                }
+                .currency-table--container .botonDieciseis{
+                        border: 1px solid #D61C4E; /*anchura, estilo y color borde*/
+                        padding: 6px; /*espacio alrededor texto*/
+                        background-color: #D61C4E; /*color botón*/
+                        color: white; /*color texto*/
+                        text-decoration: none; /*decoración texto*/
+                        text-transform: uppercase; /*capitalización texto*/
+                        font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+                        border-radius: 10px; /*bordes redondos*/
+                        font-size: 1rem;
+                        line-height: 0.8rem;
+                        margin-left: 95px;
+                        margin-right: 1px; 
+                }
+                .currency-table--container   .titulo-diplomaDiecisiete {
+                    display: flex;
+                   max-width: 200px;
+                   min-width: 100px;
+                    margin-right: 60px;
+                    margin-right: 1px;
+                    /* left:100%; */
+                    right: 300%;
+                    margin-left: 100px;
+                }
+                .currency-table--container .botonDiecisiete{
+                        border: 1px solid #D61C4E; /*anchura, estilo y color borde*/
+                        padding: 6px; /*espacio alrededor texto*/
+                        background-color: #D61C4E; /*color botón*/
+                        color: white; /*color texto*/
+                        text-decoration: none; /*decoración texto*/
+                        text-transform: uppercase; /*capitalización texto*/
+                        font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+                        border-radius: 10px; /*bordes redondos*/
+                        font-size: 1rem;
+                        line-height: 0.8rem;
+                        margin-left: 95px;
+                        margin-right: 1px; 
+                }        
+                .currency-table--container   .titulo-diplomaDieciocho {
+                    display: flex;
+                   max-width: 200px;
+                   min-width: 100px;
+                    margin-right: 60px;
+                    margin-right: 1px;
+                    /* left:100%; */
+                    right: 300%;
+                    margin-left: 100px;
+                }
+                .currency-table--container .botonDieciocho{
+                        border: 1px solid #D61C4E; /*anchura, estilo y color borde*/
+                        padding: 6px; /*espacio alrededor texto*/
+                        background-color: #D61C4E; /*color botón*/
+                        color: white; /*color texto*/
+                        text-decoration: none; /*decoración texto*/
+                        text-transform: uppercase; /*capitalización texto*/
+                        font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+                        border-radius: 10px; /*bordes redondos*/
+                        font-size: 1rem;
+                        line-height: 0.8rem;
+                        margin-left: 95px;
+                        margin-right: 1px; 
+                }
+                .currency-table--container   .titulo-diplomaDiecinueve {
+                    display: flex;
+                   max-width: 200px;
+                   min-width: 100px;
+                    margin-right: 60px;
+                    margin-right: 1px;
+                    /* left:100%; */
+                    right: 300%;
+                    margin-left: 100px;
+                }
+                .currency-table--container .botonDiecinueve{
+                        border: 1px solid #D61C4E; /*anchura, estilo y color borde*/
+                        padding: 6px; /*espacio alrededor texto*/
+                        background-color: #D61C4E; /*color botón*/
+                        color: white; /*color texto*/
+                        text-decoration: none; /*decoración texto*/
+                        text-transform: uppercase; /*capitalización texto*/
+                        font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+                        border-radius: 10px; /*bordes redondos*/
+                        font-size: 1rem;
+                        line-height: 0.8rem;
+                        margin-left: 95px;
+                        margin-right: 1px; 
+                }
+                
+                .currency-table--container   .titulo-diplomaVeinte {
+                    display: flex;
+                   max-width: 200px;
+                   min-width: 100px;
+                    margin-right: 60px;
+                    margin-right: 1px;
+                    /* left:100%; */
+                    right: 300%;
+                    margin-left: 100px;
+                }
+                .currency-table--container .botonVeinte{
+                        border: 1px solid #D61C4E; /*anchura, estilo y color borde*/
+                        padding: 6px; /*espacio alrededor texto*/
+                        background-color: #D61C4E; /*color botón*/
+                        color: white; /*color texto*/
+                        text-decoration: none; /*decoración texto*/
+                        text-transform: uppercase; /*capitalización texto*/
+                        font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+                        border-radius: 10px; /*bordes redondos*/
+                        font-size: 1rem;
+                        line-height: 0.8rem;
+                        margin-left: 95px;
+                        margin-right: 1px; 
+                }
+    
+                .currency-table--container   .titulo-diplomaVeintiuno {
+                    display: flex;
+                   max-width: 200px;
+                   min-width: 100px;
+                    margin-right: 60px;
+                    margin-right: 1px;
+                    /* left:100%; */
+                    right: 300%;
+                    margin-left: 100px;
+                }
+                .currency-table--container .botonVeintiuno{
+                        border: 1px solid #D61C4E; /*anchura, estilo y color borde*/
+                        padding: 6px; /*espacio alrededor texto*/
+                        background-color: #D61C4E; /*color botón*/
+                        color: white; /*color texto*/
+                        text-decoration: none; /*decoración texto*/
+                        text-transform: uppercase; /*capitalización texto*/
+                        font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+                        border-radius: 10px; /*bordes redondos*/
+                        font-size: 1rem;
+                        line-height: 0.8rem;
+                        margin-left: 95px;
+                        margin-right: 1px; 
+                }
+    
+                .currency-table--container   .titulo-diplomaVeintidos {
+                    display: flex;
+                   max-width: 200px;
+                   min-width: 100px;
+                    margin-right: 60px;
+                    margin-right: 1px;
+                    /* left:100%; */
+                    right: 300%;
+                    margin-left: 100px;
+                }
+                .currency-table--container .botonVeintidos{
+                        border: 1px solid #D61C4E; /*anchura, estilo y color borde*/
+                        padding: 6px; /*espacio alrededor texto*/
+                        background-color: #D61C4E; /*color botón*/
+                        color: white; /*color texto*/
+                        text-decoration: none; /*decoración texto*/
+                        text-transform: uppercase; /*capitalización texto*/
+                        font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+                        border-radius: 10px; /*bordes redondos*/
+                        font-size: 1rem;
+                        line-height: 0.8rem;
+                        margin-left: 95px;
+                        margin-right: 1px; 
+                }
+                .currency-table--container   .titulo-diplomaVeintitres {
+                    display: flex;
+                   max-width: 200px;
+                   min-width: 100px;
+                    margin-right: 60px;
+                    margin-right: 1px;
+                    /* left:100%; */
+                    right: 300%;
+                    margin-left: 100px;
+                }
+                .currency-table--container .botonVeintitres{
+                        border: 1px solid #D61C4E; /*anchura, estilo y color borde*/
+                        padding: 6px; /*espacio alrededor texto*/
+                        background-color: #D61C4E; /*color botón*/
+                        color: white; /*color texto*/
+                        text-decoration: none; /*decoración texto*/
+                        text-transform: uppercase; /*capitalización texto*/
+                        font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+                        border-radius: 10px; /*bordes redondos*/
+                        font-size: 1rem;
+                        line-height: 0.8rem;
+                        margin-left: 95px;
+                        margin-right: 1px; 
+                }
+    
+                .currency-table--container   .titulo-diplomaVeinticuatro {
+                    display: flex;
+                   max-width: 200px;
+                   min-width: 100px;
+                    margin-right: 60px;
+                    margin-right: 1px;
+                    /* left:100%; */
+                    right: 300%;
+                    margin-left: 100px;
+                }
+                .currency-table--container .botonVeinticuatro{
+                        border: 1px solid #D61C4E; /*anchura, estilo y color borde*/
+                        padding: 6px; /*espacio alrededor texto*/
+                        background-color: #D61C4E; /*color botón*/
+                        color: white; /*color texto*/
+                        text-decoration: none; /*decoración texto*/
+                        text-transform: uppercase; /*capitalización texto*/
+                        font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+                        border-radius: 10px; /*bordes redondos*/
+                        font-size: 1rem;
+                        line-height: 0.8rem;
+                        margin-left: 95px;
+                        margin-right: 1px; 
+                }
+                .currency-table--container   .titulo-diplomaVeinticinco {
+                    display: flex;
+                   max-width: 200px;
+                   min-width: 100px;
+                    margin-right: 60px;
+                    margin-right: 1px;
+                    /* left:100%; */
+                    right: 300%;
+                    margin-left: 100px;
+                }
+                .currency-table--container .botonVeinticinco{
+                        border: 1px solid #D61C4E; /*anchura, estilo y color borde*/
+                        padding: 6px; /*espacio alrededor texto*/
+                        background-color: #D61C4E; /*color botón*/
+                        color: white; /*color texto*/
+                        text-decoration: none; /*decoración texto*/
+                        text-transform: uppercase; /*capitalización texto*/
+                        font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+                        border-radius: 10px; /*bordes redondos*/
+                        font-size: 1rem;
+                        line-height: 0.8rem;
+                        margin-left: 95px;
+                        margin-right: 1px; 
+                }
+    
+                .currency-table--container   .titulo-diplomaVeintiseis {
+                    display: flex;
+                   max-width: 200px;
+                   min-width: 100px;
+                    margin-right: 60px;
+                    margin-right: 1px;
+                    /* left:100%; */
+                    right: 300%;
+                    margin-left: 100px;
+                }
+                .currency-table--container .botonVeintiseis{
+                        border: 1px solid #D61C4E; /*anchura, estilo y color borde*/
+                        padding: 6px; /*espacio alrededor texto*/
+                        background-color: #D61C4E; /*color botón*/
+                        color: white; /*color texto*/
+                        text-decoration: none; /*decoración texto*/
+                        text-transform: uppercase; /*capitalización texto*/
+                        font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+                        border-radius: 10px; /*bordes redondos*/
+                        font-size: 1rem;
+                        line-height: 0.8rem;
+                        margin-left: 95px;
+                        margin-right: 1px; 
+                }
+                .currency-table--container   .titulo-diplomaVeintisiete {
+                    display: flex;
+                   max-width: 200px;
+                   min-width: 100px;
+                    margin-right: 60px;
+                    margin-right: 1px;
+                    /* left:100%; */
+                    right: 300%;
+                    margin-left: 100px;
+                }
+                .currency-table--container .botonVeintisiete{
+                        border: 1px solid #D61C4E; /*anchura, estilo y color borde*/
+                        padding: 6px; /*espacio alrededor texto*/
+                        background-color: #D61C4E; /*color botón*/
+                        color: white; /*color texto*/
+                        text-decoration: none; /*decoración texto*/
+                        text-transform: uppercase; /*capitalización texto*/
+                        font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+                        border-radius: 10px; /*bordes redondos*/
+                        font-size: 1rem;
+                        line-height: 0.8rem;
+                        margin-left: 95px;
+                        margin-right: 1px; 
+                }
+    
+                .currency-table--container   .titulo-diplomaVeintiocho {
+                    display: flex;
+                   max-width: 200px;
+                   min-width: 100px;
+                    margin-right: 60px;
+                    margin-right: 1px;
+                    /* left:100%; */
+                    right: 300%;
+                    margin-left: 100px;
+                }
+                .currency-table--container .botonVeintiocho{
+                        border: 1px solid #D61C4E; /*anchura, estilo y color borde*/
+                        padding: 6px; /*espacio alrededor texto*/
+                        background-color: #D61C4E; /*color botón*/
+                        color: white; /*color texto*/
+                        text-decoration: none; /*decoración texto*/
+                        text-transform: uppercase; /*capitalización texto*/
+                        font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+                        border-radius: 10px; /*bordes redondos*/
+                        font-size: 1rem;
+                        line-height: 0.8rem;
+                        margin-left: 95px;
+                        margin-right: 1px; 
+                }
+                .currency-table--container   .titulo-diplomaVeintinueve {
+                    display: flex;
+                   max-width: 200px;
+                   min-width: 100px;
+                    margin-right: 60px;
+                    margin-right: 1px;
+                    /* left:100%; */
+                    right: 300%;
+                    margin-left: 100px;
+                }
+                .currency-table--container .botonVeintinueve{
+                        border: 1px solid #D61C4E; /*anchura, estilo y color borde*/
+                        padding: 6px; /*espacio alrededor texto*/
+                        background-color: #D61C4E; /*color botón*/
+                        color: white; /*color texto*/
+                        text-decoration: none; /*decoración texto*/
+                        text-transform: uppercase; /*capitalización texto*/
+                        font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+                        border-radius: 10px; /*bordes redondos*/
+                        font-size: 1rem;
+                        line-height: 0.8rem;
+                        margin-left: 95px;
+                        margin-right: 1px; 
+                }
+    
+                .currency-table--container   .titulo-diplomaTreinta {
+                    display: flex;
+                   max-width: 200px;
+                   min-width: 100px;
+                    margin-right: 60px;
+                    margin-right: 1px;
+                    /* left:100%; */
+                    right: 300%;
+                    margin-left: 100px;
+                }
+                .currency-table--container .botonTreinta{
+                        border: 1px solid #D61C4E; /*anchura, estilo y color borde*/
+                        padding: 6px; /*espacio alrededor texto*/
+                        background-color: #D61C4E; /*color botón*/
+                        color: white; /*color texto*/
+                        text-decoration: none; /*decoración texto*/
+                        text-transform: uppercase; /*capitalización texto*/
+                        font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+                        border-radius: 10px; /*bordes redondos*/
+                        font-size: 1rem;
+                        line-height: 0.8rem;
+                        margin-left: 95px;
+                        margin-right: 1px; 
+                }
+                .currency-table--container   .titulo-diplomaTreintayuno {
+                    display: flex;
+                   max-width: 200px;
+                   min-width: 100px;
+                    margin-right: 60px;
+                    margin-right: 1px;
+                    /* left:100%; */
+                    right: 300%;
+                    margin-left: 100px;
+                }
+                .currency-table--container .botonTreintayuno{
+                        border: 1px solid #D61C4E; /*anchura, estilo y color borde*/
+                        padding: 6px; /*espacio alrededor texto*/
+                        background-color: #D61C4E; /*color botón*/
+                        color: white; /*color texto*/
+                        text-decoration: none; /*decoración texto*/
+                        text-transform: uppercase; /*capitalización texto*/
+                        font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+                        border-radius: 10px; /*bordes redondos*/
+                        font-size: 1rem;
+                        line-height: 0.8rem;
+                        margin-left: 95px;
+                        margin-right: 1px; 
+                }
+                .currency-table--container   .titulo-diplomaTreintaydos {
+                    display: flex;
+                   max-width: 200px;
+                   min-width: 100px;
+                    margin-right: 60px;
+                    margin-right: 1px;
+                    /* left:100%; */
+                    right: 300%;
+                    margin-left: 100px;
+                }
+                .currency-table--container .botonTreintaydos{
+                        border: 1px solid #D61C4E; /*anchura, estilo y color borde*/
+                        padding: 6px; /*espacio alrededor texto*/
+                        background-color: #D61C4E; /*color botón*/
+                        color: white; /*color texto*/
+                        text-decoration: none; /*decoración texto*/
+                        text-transform: uppercase; /*capitalización texto*/
+                        font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+                        border-radius: 10px; /*bordes redondos*/
+                        font-size: 1rem;
+                        line-height: 0.8rem;
+                        margin-left: 95px;
+                        margin-right: 1px; 
+                }
+    
+                .currency-table--container   .titulo-diplomaTreintaytres {
+                    display: flex;
+                   max-width: 200px;
+                   min-width: 100px;
+                    margin-right: 60px;
+                    margin-right: 1px;
+                    /* left:100%; */
+                    right: 300%;
+                    margin-left: 100px;
+                }
+                .currency-table--container .botonTreintaytres{
+                        border: 1px solid #D61C4E; /*anchura, estilo y color borde*/
+                        padding: 6px; /*espacio alrededor texto*/
+                        background-color: #D61C4E; /*color botón*/
+                        color: white; /*color texto*/
+                        text-decoration: none; /*decoración texto*/
+                        text-transform: uppercase; /*capitalización texto*/
+                        font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+                        border-radius: 10px; /*bordes redondos*/
+                        font-size: 1rem;
+                        line-height: 0.8rem;
+                        margin-left: 95px;
+                        margin-right: 1px; 
+                }
+                .currency-table--container   .titulo-diplomaTreintaycuatro {
+                    display: flex;
+                   max-width: 200px;
+                   min-width: 100px;
+                    margin-right: 60px;
+                    margin-right: 1px;
+                    /* left:100%; */
+                    right: 300%;
+                    margin-left: 100px;
+                }
+                .currency-table--container .botonTreintaycuatro{
+                        border: 1px solid #D61C4E; /*anchura, estilo y color borde*/
+                        padding: 6px; /*espacio alrededor texto*/
+                        background-color: #D61C4E; /*color botón*/
+                        color: white; /*color texto*/
+                        text-decoration: none; /*decoración texto*/
+                        text-transform: uppercase; /*capitalización texto*/
+                        font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+                        border-radius: 10px; /*bordes redondos*/
+                        font-size: 1rem;
+                        line-height: 0.8rem;
+                        margin-left: 95px;
+                        margin-right: 1px; 
+                }
+                .currency-table--container   .titulo-diplomaTreintaycinco {
+                    display: flex;
+                   max-width: 200px;
+                   min-width: 100px;
+                    margin-right: 60px;
+                    margin-right: 1px;
+                    /* left:100%; */
+                    right: 300%;
+                    margin-left: 100px;
+                }
+                .currency-table--container .botonTreintaycinco {
+                        border: 1px solid #D61C4E; /*anchura, estilo y color borde*/
+                        padding: 6px; /*espacio alrededor texto*/
+                        background-color: #D61C4E; /*color botón*/
+                        color: white; /*color texto*/
+                        text-decoration: none; /*decoración texto*/
+                        text-transform: uppercase; /*capitalización texto*/
+                        font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+                        border-radius: 10px; /*bordes redondos*/
+                        font-size: 1rem;
+                        line-height: 0.8rem;
+                        margin-left: 95px;
+                        margin-right: 1px; 
+                }
+    
+                .currency-table--container   .titulo-diplomaTreintayseis {
+                    display: flex;
+                   max-width: 200px;
+                   min-width: 100px;
+                    margin-right: 60px;
+                    margin-right: 1px;
+                    /* left:100%; */
+                    right: 300%;
+                    margin-left: 200px;
+                }
+                .currency-table--container .botonTreintayseis{
+                        border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+                        padding: 6px; /*espacio alrededor texto*/
+                        background-color: #2e518b; /*color botón*/
+                        color: white; /*color texto*/
+                        text-decoration: none; /*decoración texto*/
+                        text-transform: uppercase; /*capitalización texto*/
+                        font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+                        border-radius: 10px; /*bordes redondos*/
+                        font-size: 0.8rem;
+                        line-height: 0.8rem;
+                        margin-left: 145px;
+                        margin-right: 1px; 
+                }
+    
+                .currency-table--container   .titulo-diplomaTreintaysiete {
+                    display: flex;
+                   max-width: 200px;
+                   min-width: 100px;
+                    margin-right: 60px;
+                    margin-right: 1px;
+                    /* left:100%; */
+                    right: 300%;
+                    margin-left: 200px;
+                }
+                .currency-table--container .botonTreintaysiete{                    border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+                        padding: 6px; /*espacio alrededor texto*/
+                        background-color: #2e518b; /*color botón*/
+                        color: white; /*color texto*/
+                        text-decoration: none; /*decoración texto*/
+                        text-transform: uppercase; /*capitalización texto*/
+                        font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+                        border-radius: 10px; /*bordes redondos*/
+                        font-size: 0.8rem;
+                        line-height: 0.8rem;
+                        margin-left: 145px;
+                        margin-right: 1px; 
+                }
+        .currency-table--container .boton{
+            border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+            padding: 6px; /*espacio alrededor texto*/
+            background-color: #2e518b; /*color botón*/
+            color: white; /*color texto*/
+            text-decoration: none; /*decoración texto*/
+            text-transform: uppercase; /*capitalización texto*/
+            font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+            border-radius: 10px; /*bordes redondos*/
+            font-size: 0.8rem;
+            line-height: 0.8rem;
+            margin-left: 0px;
+            margin-right: 1px;
+            justify-content: center;    
+        
+        } 
+    }
+    
+    
+    
+    @media (min-width:320px){
+        .footer{
+            position: relative;
+            display: flex;/* para manipular el contenido*/
+            flex-direction: column;
+            justify-content:flex-end;
+            width: 83%;
+            min-width: 450px;
+            height: 100px;/*manipular el contenido*/
+            text-align:center;
+            padding: 1px 10px;
+            border: 10px solid #293462;
+            background: #293462;
+            margin-top: 0px;
+        
+        }
+        
+        .footer .main--title span{
+            /*Titulo Resumen Profesional*/
+            font-size: 2.4rem; /*tamaño de letra*/
+            font-weight: bold;
+            line-height: 1.6rem;
+            width:160px; /*ancho*/
+            height: 30px;/*alto*/
+            display: inline-block;
+            background: #FEB139;/*color de fondo*/
+            border: 5px solid #FEB139; /*color y ancho del border*/
+            margin-left: 0px;/*centra a la izquierda*/
+            margin-right: 0px;/*centra a la derecha*/
+            color: black;/*color de texto*/
+            margin-left: 30px;
+    
+        }
+    
+               .main--icon-container .redes{
+                width:60px;
+                height:60px;
+                margin-left: 40px;
+            
+              }
+    
+    
+    
+        }
+    
